@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAIZEN ODYSSEY — Spatial & Sensory Design Studio / Tokyo</title>
+  <meta name="description"
+    content="KAIZEN ODYSSEY is a multi-disciplinary spatial and sensory design studio based in Tokyo, JP. Shaping the silent equilibrium between space and time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-line"></div>
+      <span class="preloader-text">KAIZEN ODYSSEY</span>
+      <span class="preloader-sub">Entering the space...</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="nav" class="nav">
+    <div class="nav-logo">
+      <span class="nav-logo-mark">K</span>
+      <span class="nav-logo-text">KAIZEN<br />ODYSSEY</span>
+    </div>
+    <div class="nav-links">
+      <a href="#origin" class="nav-link" data-index="001">Origin</a>
+      <a href="#extension" class="nav-link" data-index="002">Extension</a>
+      <a href="#fragments" class="nav-link" data-index="003">Fragments</a>
+      <a href="#resonance" class="nav-link" data-index="004">Resonance</a>
+    </div>
+    <div class="nav-location">
+      <span>Tokyo, JP</span>
+      <span class="nav-time" id="tokyoTime"></span>
+    </div>
+  </nav>
+
+  <!-- 3D Canvas -->
+  <canvas id="helixCanvas"></canvas>
+  <div class="canvas-radial-mask"></div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section section--hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hero-line hero-line--1">SHAPING THE</span>
+        <span class="hero-line hero-line--2"><em>Silent Equilibrium</em></span>
+        <span class="hero-line hero-line--3">BETWEEN SPACE AND TIME</span>
+      </h1>
+      <div class="hero-scroll-cue">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 001 // ORIGIN -->
+  <section id="origin" class="section section--content">
+    <div class="section-header">
+      <span class="section-index">001</span>
+      <span class="section-divider"></span>
+      <span class="section-label">ORIGIN</span>
+    </div>
+    <div class="section-body origin-body">
+      <div class="origin-manifesto">
+        <p class="origin-lead">
+          We believe that true design begins in silence — in the space between intention and form,
+          where material and meaning converge.
+        </p>
+        <p class="origin-text">
+          KAIZEN ODYSSEY was founded on the principle that architecture, interiors, and sensory
+          environments should feel like extensions of nature itself. Every project is a meditation —
+          a slow, deliberate act of shaping light, texture, and emptiness into living experiences.
+        </p>
+        <p class="origin-text">
+          Based in Tokyo, we draw from the deep well of Japanese spatial philosophy —
+          <em>Ma</em> (間), the sacred pause — to create environments that breathe,
+          that invite stillness, and that transform the way people inhabit their world.
+        </p>
+      </div>
+      <div class="origin-stats">
+        <div class="stat-item">
+          <span class="stat-number">14</span>
+          <span class="stat-label">Years of Practice</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">87</span>
+          <span class="stat-label">Completed Works</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">12</span>
+          <span class="stat-label">Countries</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Studio Locations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 002 // EXTENSION -->
+  <section id="extension" class="section section--content">
+    <div class="section-header">
+      <span class="section-index">002</span>
+      <span class="section-divider"></span>
+      <span class="section-label">EXTENSION</span>
+    </div>
+    <div class="section-body extension-body">
+      <div class="capability-list">
+        <div class="capability-item" data-capability="spatial">
+          <span class="capability-index">01</span>
+          <h3 class="capability-title">Spatial Architecture</h3>
+          <p class="capability-desc">Designing structures that dissolve the boundary between interior and exterior,
+            creating fluid transitions between built and natural environments.</p>
+        </div>
+        <div class="capability-item" data-capability="sensory">
+          <span class="capability-index">02</span>
+          <h3 class="capability-title">Sensory Environments</h3>
+          <p class="capability-desc">Crafting multi-sensory experiences through light choreography, acoustic design,
+            and material texturology that awaken embodied presence.</p>
+        </div>
+        <div class="capability-item" data-capability="landscape">
+          <span class="capability-index">03</span>
+          <h3 class="capability-title">Living Landscapes</h3>
+          <p class="capability-desc">Integrating biophilic systems and natural growth patterns into architectural
+            frameworks — gardens that breathe, walls that bloom.</p>
+        </div>
+        <div class="capability-item" data-capability="material">
+          <span class="capability-index">04</span>
+          <h3 class="capability-title">Material Research</h3>
+          <p class="capability-desc">Pioneering sustainable material innovation — from moss-infused concrete
+            to living clay composites that age with grace and character.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 003 // FRAGMENTS -->
+  <section id="fragments" class="section section--content">
+    <div class="section-header">
+      <span class="section-index">003</span>
+      <span class="section-divider"></span>
+      <span class="section-label">FRAGMENTS</span>
+    </div>
+    <div class="section-body fragments-body">
+      <div class="fragments-grid">
+        <div class="fragment-item" data-year="2024">
+          <div class="fragment-image-wrap">
+            <div class="fragment-image" style="background-image: url('/src/assets/zen_garden.png'); background-size: cover; background-position: center;"></div>
+          </div>
+          <div class="fragment-info">
+            <span class="fragment-category">Residential</span>
+            <h3 class="fragment-title">Shizuoka Breathing House</h3>
+            <span class="fragment-year">2024</span>
+          </div>
+        </div>
+        <div class="fragment-item" data-year="2023">
+          <div class="fragment-image-wrap">
+            <div class="fragment-image" style="background-color: #3a352a;"></div>
+          </div>
+          <div class="fragment-info">
+            <span class="fragment-category">Cultural</span>
+            <h3 class="fragment-title">Kyoto Tea Pavilion</h3>
+            <span class="fragment-year">2023</span>
+          </div>
+        </div>
+        <div class="fragment-item" data-year="2023">
+          <div class="fragment-image-wrap">
+            <div class="fragment-image" style="background-color: #2a2a30;"></div>
+          </div>
+          <div class="fragment-info">
+            <span class="fragment-category">Hospitality</span>
+            <h3 class="fragment-title">Nara Moss Hotel</h3>
+            <span class="fragment-year">2023</span>
+          </div>
+        </div>
+        <div class="fragment-item" data-year="2022">
+          <div class="fragment-image-wrap">
+            <div class="fragment-image" style="background-color: #352a2a;"></div>
+          </div>
+          <div class="fragment-info">
+            <span class="fragment-category">Installation</span>
+            <h3 class="fragment-title">Echoes of Ma — Venice</h3>
+            <span class="fragment-year">2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 004 // RESONANCE -->
+  <section id="resonance" class="section section--content section--resonance">
+    <div class="section-header">
+      <span class="section-index">004</span>
+      <span class="section-divider"></span>
+      <span class="section-label">RESONANCE</span>
+    </div>
+    <div class="section-body resonance-body">
+      <div class="resonance-left">
+        <h2 class="resonance-title">Let's shape<br /><em>something quiet</em><br />together.</h2>
+        <p class="resonance-text">
+          Whether you're envisioning a home that breathes, a public space that meditates,
+          or an installation that transforms perception — we'd love to listen.
+        </p>
+        <div class="resonance-links">
+          <a href="mailto:studio@ademrewind.jp" class="resonance-link">
+            <span class="resonance-link-label">General Inquiries</span>
+            <span class="resonance-link-value">studio@ademrewind.jp</span>
+          </a>
+          <a href="mailto:press@ademrewind.jp" class="resonance-link">
+            <span class="resonance-link-label">Press & Collaborations</span>
+            <span class="resonance-link-value">press@ademrewind.jp</span>
+          </a>
+        </div>
+      </div>
+      <div class="resonance-right">
+        <div class="resonance-location">
+          <span class="resonance-location-label">Studio</span>
+          <address class="resonance-address">
+            Kat 1000, Levent Plaza<br />
+            Büyükdere Caddesi No:10000<br />
+            Beşiktaş, İstanbul 34394<br />
+            Türkiye
+          </address>
+        </div>
+        <div class="resonance-social">
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">Behance</a>
+          <a href="#" class="social-link">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>© 2024 KAIZEN ODYSSEY</span>
+      <span>All rights reserved</span>
+      <span>Designed with 間 (Ma)</span>
+    </div>
+  </section>
+
+  <script type="module" src="/src/script.js"></script>
+</body>
+
+</html>
